@@ -2854,7 +2854,7 @@ class Text_LangCorrect
 		$this->words = array();
 		$s = $this->_parse1($s);
 		$s = $this->_parse2($s);
-		$s = UTF8::diactrical_restore($s, $restore_table);
+		$s = UTF8::diactrical_restore($s, $restore_table);		
 		$words = $this->words;
 		return $s;
 	}
