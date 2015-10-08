@@ -1,1 +1,6 @@
-
+{
+  "name": "icqparty/text-lang-correct",
+  "require": {
+    "php": ">=5.3"
+  }
+}
